@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul {
+  background-color: #6a6969;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 25px 5px 25px 5px;
+  margin: 0;
+  font-family: cursive;
+}
+
+li:hover {
+  background-color: darkgray;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 2px solid white;
+}
+
+select {
+  width: 50%;
+  margin: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 568px) {
+  #menu ul {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 569px) {
+  #menu select, #menu button {
+    display: none;
+  }
+  
+  
+}
