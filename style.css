@@ -44,10 +44,8 @@ select {
   }
 }
 
-@media (min-width: 569px) {
+@media (min-width: 568px) {
   #menu select, #menu button {
     display: none;
   }
-  
-  
 }
